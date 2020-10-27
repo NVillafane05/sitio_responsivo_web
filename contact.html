@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Bootstrap CSS-->
+	<!-- build:css css/index.css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/open-iconic-bootstrap.min.css">
+	<!-- endbuild -->
+	<title>Contacto</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" style="background-color: #e3f2fd;">
+  		<a class="navbar-bran" href="./index.html" style="color:white;">LOGO EMPRESA</a>
+	 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item "><a class="nav-link" href="./index.html"><span class="oi oi-home"></span>Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+				<li class="nav-item"><a class="nav-link" href="./price.html">Precio</a></li>
+				<li class="nav-item"><a class="nav-link" href="./terms.html">Terminos y Condiciones</a></li>
+				<li class="nav-item active"><a class="nav-link" href="">Contacto</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<h1>Contacto</h1>
+	</div>
+
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Contacto</a></li>
+			</ol>
+		</nav>
+	
+		<h1>Ingrese su comentario..</h1>
+
+		<form>
+			<!--Fila dentro del formulario-->
+			<div class="form-row">
+				<div class="form-group col-sm-6">
+					<label for="name">Nombre:</label>
+					<input type="text" name="name" class="form-control" id="name" placeholder="ingrese su nombre..">
+				</div>
+				<div class="form-group col-sm-6">
+					<label for="lastName">Apellido:</label>
+					<input type="text" name="lastName" class="form-control" id="lastName" placeholder="ingrese su apellido..">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="mail" name="email" class="form-control" id="email" placeholder="algo@dominio.com">
+			</div>
+			<div class="form-row">
+				<div class="form-group col-sm-9">
+					<label for="address">Domicilio:</label>
+					<input type="text" name="address" class="form-control" id="address" placeholder="ingrese su domicilio..">
+				</div>
+				<div class="form-group col-sm-3">
+					<label for="provincia">Provincia:</label>
+					<select id="provincia" class="form-control">
+						<option>Seleccione provincia..</option>
+						<option value="1">Capital Federal</option>
+						<option value="2">Prov. de Buenos Aires</option>
+						<option value="3">Córdoba</option>
+						<option value="4">Santa Fé</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="comentario">Comentario</label>
+				<textarea id="comentario" class="form-control" rows="5" placeholder="ingrese su comentario aqui por favor.."></textarea>
+			</div>
+			<div class="form-group">
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="gridCheck">
+					<label class="form-check.label" for="gridCheck">Suscribirme a las novedades</label>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-outline-success btn-">Enviar Consulta</button>
+		</form>
+	</div><!--end class="container"-->
+
+	<footer class="footer">
+		<div class="row">
+			<div class="col-sm-4 d-flex flex-column">
+				<a href="https://www.linkedin.com/in/diego-gimenez-733772192/">LINKEDIN</a>
+				<a href="https://facebook.com" target="facebook">FACEBOOK</a>
+				<a href="https://twitter.com" target="twitter">TWITTER</a>
+				<a href="htts://instagram" target="instagram">INSTAGRAM</a>
+			</div>
+			<div class="col-sm-4">
+				<address>
+					<h3 class="titleCentralColor">Oficina Central</h3>
+					<p>Av.Santa FE 3333, CABA, Argentina</p>
+					<p>+5411 1234 1234</p>
+					<p>contacto@DGimenez.com</p>
+				</address>
+			</div>
+			<div class="col-sm-4 d-flex flex-column align-items-end">
+				<a href="#">Nosotros</a>
+				<a href="#">Precios</a>
+				<a href="#">Términos y Condiciones</a>
+				<a href="#">Contacto</a>
+			</div>
+		</div>	
+	</footer>
+
+	<!--JQuery first, then Popper.js, then Bootstrap JS-->
+	<!-- build:js js/main.js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/index.js"></script>
+	<!-- endbuild -->
+</body>
+</html>

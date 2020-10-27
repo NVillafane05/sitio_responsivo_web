@@ -1,0 +1,66 @@
+@yellow: #fffa19;
+
+.margenes (@top: 0px , @bottom: 0px){
+	margin-top: @top;
+	margin-bottom: @bottom;
+}
+
+
+.jumbotron {
+  background-color: @yellow;
+  color: blue;
+  text-align: center;
+  .margenes (40px, 10px);
+}
+
+.footer {
+  padding: 10px 10px 0px 10px;
+  background-color: @yellow;
+  .margenes (10px, 0px); 
+}
+
+.btn {
+  color: black; }
+
+.card-hotel {
+  /*cuanto queremos que crezca el elemento :1
+	de cuando va a ser el ancho = 150px;*/
+  flex: 1 200px;
+  /*padding: 2px 0px 2px 0px;*/
+  .margenes (10px, 0px); 
+  }
+
+.btn-reserva {
+  width: 100%;
+  border-radius: 0px;
+  /*position: absolute;
+	left: 0;
+	bottom: 0;*/ }
+
+.titleCenter {
+  text-align: center; }
+
+.titleColor {
+  color: #b5c6f2; }
+
+.titleCentralColor {
+  color: #819eea; }
+
+.footer-address-icon {
+  padding-right: 5px; }
+
+.formatoImg {
+  width: 90%;
+  /*height: 500px;*/
+  margin-left: 50px;
+  border-radius: 10px;
+  padding: 15px 0px 15px 0px; }
+
+/*TABLA VISTA EN CELULARES CON SCROLL*/
+@media screen and (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: auto; } }
+
+.tab-content {
+  padding-top: 10px; }

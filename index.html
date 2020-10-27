@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- build:css css/index.css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/open-iconic-bootstrap.min.css">
+	<!-- endbuild -->
+
+	<title>Sitio Responsivo con Bootstrap</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  		<a class="navbar-bran" href="" style="color:white;">LOGO EMPRESA</a>
+	 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href=""> <span class="oi oi-home"></span>Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+				<li class="nav-item"><a class="nav-link" href="./price.html">Precio</a></li>
+				<li class="nav-item"><a class="nav-link" href="./terms.html">Terminos y Condiciones</a></li>
+				<li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+				<li></li>
+			</ul>
+			<button type="button" class="btn btn-primary">Notificaciones
+				<span class="badge badge-light">4</span>
+			</button>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<h1>Diseño web adaptable a cualquier dispositivo</h1>
+	</div>
+
+	<!--Alerta de promocion-->
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		<strong>Nuevas Ofertas!</strong> Registrate ahora para acceder a este Beneficio!
+		<button type="button" class="close" data-dismiss="alert" arial-label="Close">
+			<span arial-hidden="true">&times;</span>
+		</button>	
+	</div>
+
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active" aria-current="page">Home</li>
+			</ol>
+		</nav>
+		<div class="row">
+			<div class="col-sm-4">
+				<p>
+					<h3 class="titleColor"><span class="oi oi-people"></span> Nosotros</h3>
+					<p>Somos un equipo de emprendedores con más de 10 años de experiencia.</p>	
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<p>
+					<h3 class="titleColor"><span class="oi oi-wrench"></span> Equipo de Desarrollo</h3>
+					<p>Contamos con conocimientos sobre las metodologías de trabajo más modernas y queremos ayudarte a implementarlas.</p>	
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<p>
+					<h3 class="titleColor">Medios de Pago <span class="oi oi-dollar"></span></h3>
+					<ul>
+						<li><span class="oi oi-warning" data-toggle="tooltip" data-placement="top" title="Hasta Fin de año, tenes un 20% de descuento"></span>Mercado Pago</li>
+						<li>Ahora 12</li>	
+						<li>Ahora 24</li>
+						<li>Ahora 48</li>
+					</ul>		
+				</p>
+			</div>
+		</div><!--end class="row"-->
+		<hr>
+		<!--INICIO MULTICOLLAPSE-->
+		<div class="row" style="justify-content: center;">
+			<div class="col-sm-2">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#imagenInnovation" aria-expande="false" aria-controls="multiCollapse1"> VER IMAGEN</button>
+			</div>			
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 collapse multi-collapse" id="imagenInnovation">
+				<img src="img/innovation.jpg" class="img-fluid formatoImg" alt="Imagen Fondo">
+			</div>
+		</div>
+		<!-- END  MULTICOLLAPSE DE IMAGEN-->
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="titleCenter titleCentralColor">TECNOLOGÍAS UTILIZADAS</h3>
+			</div>
+		</div>
+
+		<div class="d-flex flex-wrap flex-row-reverse">
+			<div class="row">
+				<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+					<div class="card-header">
+						Encabezado
+					</div>
+					<div class="card-body">
+						<h5 class="card-title titleCenter titleColor">HTML5</h5>
+						<h6 class="card-subtitle titleCenter text-muted">Subtitulo</h6>
+						<img class="card-img-top rounded-circle imgCentrada" src="img/logo-html5.jpg" alt="Logo HTML5" style="height: 100px; width: 100px;">
+						<p class="card-text">Lo último en tecnología, adaptable a todos los navegadores del mercado.</p>
+					</div>
+					<div>
+						<button class="btn btn-outline-info btn-reserva"><span class="oi oi-arrow-right"></span> VER MÁS <span class="oi oi-arrow-left"></span></button>	
+					</div>
+				</div>
+
+				<div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+					<div class="card-header">
+						Encabezado
+					</div>
+					<div class="card-body">
+						<h5 class="card-title titleCenter titleColor ">JavaScript</h5>
+						<h6 class="card-subtitle titleCenter text-muted">Subtitulo</h6>
+						<img class="card-img-top rounded-circle imgCentrada" src="img/logo-javascript.jpg" alt="Logo JS" style="height: 100px; width: 100px;">
+						<p class="card-text">Control adicional y manejo asincrónico para tus aplicaciones.</p>
+					</div>	
+					<div>
+						<button class="btn btn-outline-info btn-reserva"><span class="oi oi-arrow-right"></span> VER MÁS <span class="oi oi-arrow-left"></span></button>	
+					</div>
+				</div>
+
+				<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+					<div class="card-header">
+						Encabezado
+					</div>
+					<div class="card-body">
+						<h5 class="card-title titleCenter titleColor">CSS3</h5>
+						<h6 class="card-subtitle titleCenter text-muted">Subtitulo</h6>
+						<img class="card-img-top rounded-circle imgCentrada" src="img/logo-css3.jpg" alt="Logo CSS3" style="height: 100px; width: 100px;">
+						<p class="card-text">Diseños actuales y atractivos. Efectos, transparencias, animaciones.</p>
+					</div>
+					<div>
+						<button class="btn btn-outline-info btn-reserva"><span class="oi oi-arrow-right"></span> VER MÁS <span class="oi oi-arrow-left"></span></button>	
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+					<div class="card-header">
+						Encabezado
+					</div>
+					<div class="card-body">
+						<h5 class="titleCenter titleColor">PHP</h5>
+						<h6 class="card-subtitle titleCenter text-muted">Subtitulo</h6>
+						<img class="card-img-top rounded-circle imgCentrada" src="img/logo-php.jpg" alt="Logo php" style="height: 100px; width: 100px;">
+						<p class="card-text">Un lenguaje robusto, que ofrece versatilidad y máxima compatibilidad para tus procesos de datos.</p>
+					</div>
+					<div>
+						<button class="btn btn-outline-info btn-reserva"><span class="oi oi-arrow-right"></span> VER MÁS <span class="oi oi-arrow-left"></span></button>	
+					</div>			
+				</div>
+
+				<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+					<div class="card-header">
+						Encabezado
+					</div>
+					<div class="card-body">
+						<h5 class="titleCenter titleColor">MySQL</h5>
+						<h6 class="card-subtitle titleCenter text-muted">Subtitulo</h6>
+						<img class="card-img-top rounded-circle imgCentrada" src="img/logo-MySQL.png" alt="Logo MySQL" style="height: 100px; width: 100px;">
+						<p class="card-text">Datos almacenados de manera segura y eficiente.</p>
+					</div>
+					<div>
+						<button class="btn btn-outline-info btn-reserva"><span class="oi oi-arrow-right"></span> VER MÁS <span class="oi oi-arrow-left"></span></button>	
+					</div>
+				</div>
+
+				<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+					<div class="card-header">
+						Encabezado
+					</div>
+					<div class="card-body">
+						<h5 class="titleCenter titleColor">Bootstrap 4 <span class="badge badge-secondary">LO NUEVO!</span></h5>
+						<h6 class="card-subtitle titleCenter text-muted">Subtitulo</h6>
+						
+						<img class="card-img-top rounded-circle imgCentrada" src="img/logo-bootstrap.png" alt="Logo Bootstrap" style="height: 100px; width: 100px;">
+						<p class="card-text">Permite desarrollar webs que se ajustan a cualquier resolución y dispositivo.</p>
+					</div>
+					<div>
+						<button class="btn btn-outline-info btn-reserva"><span class="oi oi-arrow-right"></span> VER MÁS <span class="oi oi-arrow-left"></span></button>	
+					</div>
+				</div>
+			</div>
+		</div><!--end class="row"-->
+		
+	</div><!--end class="container"-->
+	
+	<footer class="footer">
+		<div class="row">
+			<div class="col-sm-4 d-flex flex-column">
+				<a href="https://www.linkedin.com/in/diego-gimenez-733772192/" class="align-self-center">LINKEDIN</a>
+				<a href="https://facebook.com" target="facebook" class="align-self-center">FACEBOOK</a>
+				<a href="https://twitter.com" target="twitter" class="align-self-center">TWITTER</a>
+				<a href="htts://instagram" target="instagram" class="align-self-center">INSTAGRAM</a>
+			</div>
+			<div class="col-sm-4">
+				<address>
+					<h3 class="titleCentralColor">Oficina Central</h3>
+					<p><span class="oi oi-map-marker footer-address-icon"></span>Av.Santa FE 3333, CABA, Argentina</p>
+					<p><span class="oi oi-phone footer-address-icon"></span>+5411 1234 1234</p>
+					<p><span class="oi oi-envelope-closed footer-address-icon"></span>contacto@DGimenez.com</p>
+				</address>
+			</div>
+			<div class="col-sm-4 d-flex flex-column align-items-end">
+				<a href="./about.html" class="align-self-center">Nosotros</a>
+				<a href="./price.html" class="align-self-center">Precios</a>
+				<a href="./terms.html" class="align-self-center">Términos y Condiciones</a>
+				<a href="./contact.html" class="align-self-center">Contacto</a>
+			</div>
+		</div>	
+	</footer>
+	
+	<!--JQuery first, then Popper.js, then Bootstrap JS-->
+	<!-- build:js js/main.js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/index.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
